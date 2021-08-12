@@ -1,0 +1,11 @@
+syntax = "proto3";
+package io.douya.common.proto;
+
+option go_package = "github.com/douya-io/common/proto;proto";
+
+message MailGuardCodePayload {
+  string Account = 1;
+  string Code = 2;
+  string locateText = 3;
+  string locateHref = 4;
+}
