@@ -1,0 +1,21 @@
+syntax = "proto3";
+package io.douya.common.proto;
+
+option go_package = "github.com/douya-io/common/proto;proto";
+
+message MailPayload {
+  message Attachment {
+    string name = 1;
+    string content_type = 2;
+    bool with_file = 3;
+  }
+  string from = 1;
+  string nick = 2;
+  repeated string to = 3;
+  repeated string cc = 4;
+  repeated string bcc = 5;
+  string subject = 6;
+  string body = 7;
+  string content_type = 8;
+  Attachment attachment = 9;
+}

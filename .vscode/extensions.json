@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "ms-azuretools.vscode-docker",
+    "knisterpeter.vscode-github",
+    "cschleiden.vscode-github-actions",
+    "codezombiech.gitignore",
+    "eamodio.gitlens",
+    "golang.go",
+    "cliffordfajardo.highlight-line-vscode",
+    "shardulm94.trailing-spaces",
+    "redhat.vscode-yaml"
+  ]
+}
