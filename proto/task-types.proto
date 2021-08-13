@@ -1,0 +1,8 @@
+syntax = "proto3";
+package io.douya.common.proto;
+
+option go_package = "github.com/douya-io/common/proto;proto";
+
+enum TaskTypes {
+  postoffice_postGuardCode = 0;
+}

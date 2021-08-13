@@ -4,8 +4,11 @@ package io.douya.common.proto;
 option go_package = "github.com/douya-io/common/proto;proto";
 
 message MailGuardCodePayload {
-  string Account = 1;
-  string Code = 2;
+  string account = 1;
+  string authCode = 2;
   string locateText = 3;
   string locateHref = 4;
+  string mailSubject = 5;
+  string mailAddress = 6;
+  string language = 7;
 }
