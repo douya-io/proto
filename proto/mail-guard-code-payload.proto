@@ -11,4 +11,5 @@ message MailGuardCodePayload {
   string mailSubject = 5;
   string mailAddress = 6;
   string language = 7;
+  string ip = 8;
 }
