@@ -1,0 +1,10 @@
+syntax = "proto3";
+package io.douya.common.proto;
+
+option go_package = "github.com/douya-io/common/proto;proto";
+
+message MailSignupWeclomePayload {
+  string email = 1;
+  string language = 2;
+  string ticker = 3;
+}

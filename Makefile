@@ -32,7 +32,7 @@ proto:
 
 .PHONY: all
 # generate all
-all: errors config
+all: errors
 	go generate ./...
 	go mod tidy
 	go mod download

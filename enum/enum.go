@@ -1,7 +1,11 @@
 package enum
 
 const (
-	QUEUE_POSTOFFICE__SIGNUP_WELCOME string = "io.douya.postoffice.signup-welcome"
-	QUEUE_POSTOFFICE__VERIFY_ACCOUNT string = "io.douya.postoffice.verify-account"
-	QUEUE_POSTOFFICE__RESET_PASSWORD string = "io.douya.postoffice.reset-password"
+	RABBIT_QUEUE__POSTOFFICE_SIGNUP_WELCOME string = "q.postoffice.post.signup-welcome"
+	RABBIT_QUEUE__POSTOFFICE_VERIFY_ACCOUNT string = "q.postoffice.post.verify-account"
+	RABBIT_QUEUE__POSTOFFICE_RESET_PASSWORD string = "q.postoffice.post.reset-password"
+)
+
+const (
+	RABBIT_ROUTE__POSTOFFICE_MISSION string = "r.postoffice.mission"
 )
