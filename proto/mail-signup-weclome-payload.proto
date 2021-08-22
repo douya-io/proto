@@ -4,7 +4,8 @@ package io.douya.common.proto;
 option go_package = "github.com/douya-io/common/proto;proto";
 
 message MailSignupWeclomePayload {
-  string email = 1;
+  string to = 1;
   string language = 2;
-  string ticker = 3;
+  string nickname = 3;
+  string ticker = 4;
 }
