@@ -3,9 +3,11 @@ package io.douya.common.proto;
 
 option go_package = "github.com/douya-io/common/proto;proto";
 
-message MailSignupWeclomePayload {
+message MailSignupWelcomePayload {
   string to = 1;
   string language = 2;
   string nickname = 3;
-  string ticker = 4;
+  string sn = 4;
+  string ticker = 5;
+  string continue = 6;
 }

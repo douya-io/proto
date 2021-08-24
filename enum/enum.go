@@ -7,5 +7,7 @@ const (
 )
 
 const (
-	RABBIT_ROUTE__POSTOFFICE_MISSION string = "r.postoffice.mission"
+	RABBIT_ROUTE__POSTOFFICE_SIGNUP_WELCOME string = "r.postoffice.post.signup-welcome"
+	RABBIT_ROUTE__POSTOFFICE_VERIFY_ACCOUNT string = "r.postoffice.post.verify-account"
+	RABBIT_ROUTE__POSTOFFICE_RESET_PASSWORD string = "r.postoffice.post.reset-password"
 )
