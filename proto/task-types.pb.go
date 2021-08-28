@@ -23,6 +23,7 @@ const (
 type TaskTypes int32
 
 const (
+	// option allow_alias = true;
 	TaskTypes_postoffice_postGuardCode TaskTypes = 0
 )
 

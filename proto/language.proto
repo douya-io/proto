@@ -3,7 +3,7 @@ package io.douya.common.proto;
 
 option go_package = "github.com/douya-io/common/proto;proto";
 
-enum TaskTypes {
-  // option allow_alias = true;
-  postoffice_postGuardCode = 0;
+enum Language {
+  zh_CN = 0;
+  en_US = 1;
 }

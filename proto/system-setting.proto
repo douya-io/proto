@@ -1,0 +1,17 @@
+syntax = "proto3";
+package io.douya.common.proto;
+
+option go_package = "github.com/douya-io/common/proto;proto";
+
+message GeneralSetting {
+  optional string icp = 1;
+  optional string main_domain = 2;
+  optional string cdn = 3;
+}
+
+message IdSetting {
+  optional string seo_title = 1;
+  optional string seo_keyword = 2;
+  optional string seo_desc = 3;
+  optional string web_sentry_dsn = 4;
+}

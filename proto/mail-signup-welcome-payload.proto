@@ -3,9 +3,11 @@ package io.douya.common.proto;
 
 option go_package = "github.com/douya-io/common/proto;proto";
 
+import "proto/language.proto";
+
 message MailSignupWelcomePayload {
   string to = 1;
-  string language = 2;
+  Language language = 2;
   string nickname = 3;
   string sn = 4;
   string ticker = 5;
